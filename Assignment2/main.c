@@ -146,29 +146,29 @@ int main()
   // /** double */
   // printf("double: \n");
 
-  printf("0:\n");
-  dx.d = 0;
-  printActualBitPatterns(sizeof(dx.d), &(dx.c));
+  // printf("0:\n");
+  // dx.d = 0;
+  // printActualBitPatterns(sizeof(dx.d), &(dx.c));
 
-  printf("1:\n");
-  dx.d = 1;
-  printActualBitPatterns(sizeof(dx.d), &(dx.c));
+  // printf("1:\n");
+  // dx.d = 1;
+  // printActualBitPatterns(sizeof(dx.d), &(dx.c));
 
-  printf("2:\n");
-  dx.d = 2;
-  printActualBitPatterns(sizeof(dx.d), &(dx.c));
+  // printf("2:\n");
+  // dx.d = 2;
+  // printActualBitPatterns(sizeof(dx.d), &(dx.c));
 
-  printf("-1:\n");
-  dx.d = -1;
-  printActualBitPatterns(sizeof(dx.d), &(dx.c));
+  // printf("-1:\n");
+  // dx.d = -1;
+  // printActualBitPatterns(sizeof(dx.d), &(dx.c));
 
-  printf("1.797693e+308:\n");
-  dx.d = 1.797693e+308;
-  printActualBitPatterns(sizeof(dx.d), &(dx.c));
+  // printf("1.797693e+308:\n");
+  // dx.d = 1.797693e+308;
+  // printActualBitPatterns(sizeof(dx.d), &(dx.c));
 
-  printf("-1.797693e+308:\n");
-  dx.d = -1.797693e+308;
-  printActualBitPatterns(sizeof(dx.d), &(dx.c));
+  // printf("-1.797693e+308:\n");
+  // dx.d = -1.797693e+308;
+  // printActualBitPatterns(sizeof(dx.d), &(dx.c));
 
   // // dx.d = 20.000;
   // printf("1.0/0.0: \n");
@@ -186,6 +186,10 @@ int main()
   // printf("2^1000 \n");
   // dx.d = pow(2, 1000);
   // printActualBitPatterns(sizeof(dx.d), &(dx.c));
+
+  printf("0.8:\n");
+  dx.d = 0.8;
+  printActualBitPatterns(sizeof(dx.d), &(dx.c));
 
   return 0;
 }
